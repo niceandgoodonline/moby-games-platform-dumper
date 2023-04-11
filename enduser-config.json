@@ -1,0 +1,13 @@
+{
+	"api_key"                          : false,
+	"base_url"                         : "https://api.mobygames.com/v1",
+	"platform"                         : "playstation",
+	"format"                           : "normal",
+	"magical_game_picker_normalization": false,
+	"compress_tags"					   : false,
+	"api_rate_limit"                   : 1.3,
+	"description_clean"                : ["<em>", "</em>", "</p>"],
+	"covers"                           : false,
+	"screenshots"                      : false,
+	"extras"                           : false
+}
