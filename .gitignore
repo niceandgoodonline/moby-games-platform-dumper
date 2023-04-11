@@ -10,6 +10,7 @@ __pycache__/
 dev/
 json/*
 log/
+enduser-config.json
 
 
 # Distribution / packaging
