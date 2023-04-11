@@ -14,7 +14,7 @@ run `gui.py` with python or create your own programatic scripts which leverage `
 !!!YOU MUST ADD YOUR OWN API KEY TO `enduser-config.json`!!!
 
 Recommendations for `enduser-config.json` and `config/`:
-- DO NOT set `api_rate_limit` below to 1 or lower.
+- DO NOT set `api_rate_limit` to 1 or lower.
 - `magical_game_picker_normalization` and `compress_tags` will mutate the data from Moby Games in ways you may or may not need/appreciate.
 - when `compress_tags` is `True` it will cull and replace based on `config/genre-clean.json` (you can modify any of the "rules" in there to compress genres to tags as you see fit)
 - `platforms.json` contains a full list of all the platforms on MobyGames as of April 2023. You can delete these if they are overkill for your usecase.

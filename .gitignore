@@ -12,7 +12,6 @@ json/*
 log/
 enduser-config.json
 
-
 # Distribution / packaging
 .Python
 build/
