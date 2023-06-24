@@ -29,6 +29,7 @@ class Api_Walker(object):
 	def main(self) -> dict:
 		_start   = time.time()
 		new_data = self.walk_api()
+		f_util.check_directory("./json")
 		if len(new_data) > 1:
 			f_util.check_directory(self.platform_path)
 		f_util.write_respose_to_file(f"{self.web_file_out}", new_data)
